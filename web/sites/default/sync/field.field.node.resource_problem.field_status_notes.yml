@@ -1,0 +1,19 @@
+uuid: 4efbf3d7-55f1-4795-8b5f-b0a9acb05353
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_status_notes
+    - node.type.resource_problem
+id: node.resource_problem.field_status_notes
+field_name: field_status_notes
+entity_type: node
+bundle: resource_problem
+label: 'Public Notes'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

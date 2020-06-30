@@ -1,0 +1,15 @@
+uuid: d1724f93-d396-4752-967f-2991e15099c0
+langcode: en
+status: true
+dependencies: {  }
+id: room
+label: Room
+weight: 34
+is_admin: null
+permissions:
+  - 'create room content'
+  - 'delete own room content'
+  - 'display EU Cookie Compliance popup'
+  - 'edit any room content'
+  - 'edit own room content'
+  - 'view own unpublished content'

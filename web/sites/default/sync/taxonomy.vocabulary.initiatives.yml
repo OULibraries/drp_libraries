@@ -1,0 +1,8 @@
+uuid: 8d112c52-7798-42fa-9f29-5cdd48435dc2
+langcode: en
+status: true
+dependencies: {  }
+name: Initiatives
+vid: initiatives
+description: ''
+weight: 0

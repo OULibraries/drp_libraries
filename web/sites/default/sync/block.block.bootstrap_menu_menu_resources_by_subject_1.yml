@@ -1,0 +1,25 @@
+uuid: 034a28c6-00e7-4048-873c-a28f4fe20ffb
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-resources-by-subject-1
+  module:
+    - system
+  theme:
+    - bootstrap
+id: bootstrap_menu_menu_resources_by_subject_1
+theme: bootstrap
+region: footer
+weight: 0
+provider: null
+plugin: 'system_menu_block:menu-resources-by-subject-1'
+settings:
+  id: 'system_menu_block:menu-resources-by-subject-1'
+  label: 'Resources by Subject'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

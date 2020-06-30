@@ -1,0 +1,107 @@
+uuid: 020ee7bb-12d2-4c35-85c1-63589e82c17f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_special_collections.default
+    - field.field.node.special_collections.comment_node_special_collections
+    - field.field.node.special_collections.field_content_owner
+    - field.field.node.special_collections.field_description
+    - field.field.node.special_collections.field_image
+    - field.field.node.special_collections.field_info
+    - field.field.node.special_collections.field_last_updated
+    - field.field.node.special_collections.field_needs_annual_audit
+    - field.field.node.special_collections.field_please_address_the_followi
+    - field.field.node.special_collections.field_this_content_needs_review
+    - image.style.medium
+    - node.type.special_collections
+  module:
+    - comment
+    - datetime
+    - image
+    - options
+    - text
+    - user
+id: node.special_collections.default
+targetEntityType: node
+bundle: special_collections
+mode: default
+content:
+  comment_node_special_collections:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    region: content
+  field_content_owner:
+    label: above
+    weight: 7
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_description:
+    label: hidden
+    weight: 1
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    label: hidden
+    weight: 0
+    type: image
+    settings:
+      image_style: medium
+      image_link: ''
+    third_party_settings: {  }
+    region: content
+  field_info:
+    label: hidden
+    weight: 3
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_last_updated:
+    label: above
+    weight: 8
+    type: datetime_default
+    settings:
+      format_type: long
+      timezone_override: ''
+    third_party_settings: {  }
+    region: content
+  field_needs_annual_audit:
+    label: above
+    weight: 6
+    type: list_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_please_address_the_followi:
+    label: above
+    weight: 5
+    type: basic_string
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_this_content_needs_review:
+    label: above
+    weight: 4
+    type: list_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  search_api_excerpt: true

@@ -1,0 +1,59 @@
+uuid: 009d277e-84ea-405d-91c2-efbfe90f62d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_banner_images.default
+    - field.field.node.banner_images.comment_node_banner_images
+    - field.field.node.banner_images.field_image
+    - field.field.node.banner_images.field_link
+    - image.style.banner
+    - node.type.banner_images
+  module:
+    - comment
+    - image
+    - link
+    - user
+id: node.banner_images.default
+targetEntityType: node
+bundle: banner_images
+mode: default
+content:
+  comment_node_banner_images:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    region: content
+  field_image:
+    label: above
+    weight: 0
+    type: image
+    settings:
+      image_style: banner
+      image_link: ''
+    third_party_settings: {  }
+    region: content
+  field_link:
+    label: above
+    weight: 1
+    type: link
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  search_api_excerpt: true

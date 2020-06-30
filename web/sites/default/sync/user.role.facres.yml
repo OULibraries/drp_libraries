@@ -1,0 +1,10 @@
+uuid: e2f20408-c677-4a47-bec6-fc185ba66032
+langcode: en
+status: true
+dependencies: {  }
+id: facres
+label: facres
+weight: 36
+is_admin: null
+permissions:
+  - 'display EU Cookie Compliance popup'

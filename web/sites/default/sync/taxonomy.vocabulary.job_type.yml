@@ -1,0 +1,8 @@
+uuid: 3aa57dd9-1280-466c-afe1-6e06feed5bad
+langcode: en
+status: true
+dependencies: {  }
+name: 'Job Type'
+vid: job_type
+description: 'Type of job coming through the RSS feed.'
+weight: 0

@@ -1,0 +1,25 @@
+uuid: 235051c4-262f-4e3a-bb8e-e1e560c8cc5b
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.menu-resources-by-subject-1
+  module:
+    - system
+  theme:
+    - entity_iframe_theme
+id: entity_iframe_theme_menu_menu_resources_by_subject_1
+theme: entity_iframe_theme
+region: ''
+weight: 0
+provider: null
+plugin: 'system_menu_block:menu-resources-by-subject-1'
+settings:
+  id: 'system_menu_block:menu-resources-by-subject-1'
+  label: 'Resources by Subject'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

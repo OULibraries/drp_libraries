@@ -1,0 +1,14 @@
+uuid: ae725bfc-5e87-4aed-af36-59d9f00a468f
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.academic_programs
+  module:
+    - user
+id: user_remove_role_action.academic_programs
+label: 'Remove the academic_programs role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: academic_programs

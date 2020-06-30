@@ -1,0 +1,14 @@
+uuid: 34ab17ed-e2e6-4178-8897-cfe464686920
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.hours_manager
+  module:
+    - user
+id: user_add_role_action.hours_manager
+label: 'Add the hours manager role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: hours_manager

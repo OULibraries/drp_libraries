@@ -1,0 +1,10 @@
+uuid: 58f3fbaf-0d87-4cf8-871f-befb062932db
+langcode: en
+status: true
+dependencies: {  }
+id: staff
+label: staff
+weight: 11
+is_admin: null
+permissions:
+  - 'display EU Cookie Compliance popup'

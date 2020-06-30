@@ -1,0 +1,10 @@
+uuid: 13bf7f3d-a8ac-478d-ac8e-262901281648
+langcode: en
+status: true
+dependencies: {  }
+id: featured_areas
+label: 'Featured List'
+icon_uuid: null
+icon_default: null
+description: 'Migrated from paragraph bundle Featured List'
+behavior_plugins: {  }

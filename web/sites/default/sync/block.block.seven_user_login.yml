@@ -1,0 +1,20 @@
+uuid: ca9a3f9a-c959-4bab-8687-bd1b398621b5
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - claro
+id: seven_user_login
+theme: claro
+region: content
+weight: 10
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: ''
+  provider: user
+  label_display: '0'
+visibility: {  }

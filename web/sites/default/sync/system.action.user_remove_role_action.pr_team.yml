@@ -1,0 +1,14 @@
+uuid: ed6495db-98b2-4214-941d-60e44c2a2036
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.pr_team
+  module:
+    - user
+id: user_remove_role_action.pr_team
+label: 'Remove the PR Team role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: pr_team

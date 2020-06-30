@@ -1,0 +1,11 @@
+uuid: 251f974e-ca93-4ca4-9592-f85596774204
+langcode: en
+status: true
+dependencies: {  }
+name: Panel
+type: panel
+description: 'A panel layout broken up into rows and columns.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,18 @@
+uuid: fe8d0a7a-ba51-49fe-8cb3-49361b92261e
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_notify_me
+field_name: field_notify_me
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

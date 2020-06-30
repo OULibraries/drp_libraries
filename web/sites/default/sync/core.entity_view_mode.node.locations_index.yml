@@ -1,0 +1,10 @@
+uuid: 3212eb31-1676-4274-aee1-878c34b3db3c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.locations_index
+label: locations_index
+targetEntityType: node
+cache: true

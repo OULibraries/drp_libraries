@@ -1,0 +1,14 @@
+uuid: de11c381-c310-4f3b-a978-85cb89097c71
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.impact_challenge_maintainer
+  module:
+    - user
+id: user_remove_role_action.impact_challenge_maintainer
+label: 'Remove the Impact Challenge Maintainer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: impact_challenge_maintainer

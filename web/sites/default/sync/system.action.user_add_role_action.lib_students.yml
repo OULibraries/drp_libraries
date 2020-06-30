@@ -1,0 +1,14 @@
+uuid: f6c2c2d0-ae9a-4ee5-86b4-d48cd2abc050
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.lib_students
+  module:
+    - user
+id: user_add_role_action.lib_students
+label: 'Add the Lib-students role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: lib_students

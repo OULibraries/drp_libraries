@@ -1,0 +1,14 @@
+uuid: 79f885a1-2dd4-4bfd-8bf2-ca2fca5d18a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.mass_contact_test_web_team
+  module:
+    - user
+id: user_remove_role_action.mass_contact_test_web_team
+label: 'Remove the Mass_Contact_Test_Web_Team role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: mass_contact_test_web_team

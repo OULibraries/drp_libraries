@@ -1,0 +1,10 @@
+uuid: 2e02f16b-da66-4419-9127-3586946d627f
+langcode: en
+status: true
+dependencies: {  }
+id: grad_room_exception
+label: 'grad room exception'
+weight: 9
+is_admin: null
+permissions:
+  - 'display EU Cookie Compliance popup'

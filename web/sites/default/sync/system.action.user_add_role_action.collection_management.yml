@@ -1,0 +1,14 @@
+uuid: a3edf5c8-9ad5-4fa2-b63a-17c6a2b84071
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.collection_management
+  module:
+    - user
+id: user_add_role_action.collection_management
+label: 'Add the Collection Management role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: collection_management

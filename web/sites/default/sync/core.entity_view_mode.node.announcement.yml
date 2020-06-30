@@ -1,0 +1,10 @@
+uuid: e38508da-8e37-4d0a-9c97-d3abb5a46d31
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.announcement
+label: announcement
+targetEntityType: node
+cache: true

@@ -1,0 +1,20 @@
+uuid: c62e55d6-5c94-46da-8015-696a054cdac0
+langcode: en
+status: true
+dependencies: {  }
+id: employee
+label: employee
+weight: 2
+is_admin: null
+permissions:
+  - 'create announcement content'
+  - 'create event content'
+  - 'create test content'
+  - 'delete own announcement content'
+  - 'delete own event content'
+  - 'delete own test content'
+  - 'display EU Cookie Compliance popup'
+  - 'edit node expire'
+  - 'edit own announcement content'
+  - 'edit own event content'
+  - 'edit own test content'

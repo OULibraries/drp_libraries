@@ -1,0 +1,18 @@
+uuid: 751be810-c9ce-4784-8790-eb782d3582d6
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main-menu
+    parent: 'main-menu:0:'
+name: E-Resources
+type: eresources
+description: 'Use <em>e-resource</em> to add a new database or e-reference materials to the site.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

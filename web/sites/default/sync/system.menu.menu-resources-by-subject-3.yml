@@ -1,0 +1,8 @@
+uuid: e26289a2-c873-4451-a880-de9450d58fe8
+langcode: en
+status: true
+dependencies: {  }
+id: menu-resources-by-subject-3
+label: 'Resources by Subject 3'
+description: ''
+locked: false

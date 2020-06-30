@@ -1,0 +1,21 @@
+uuid: 73e32000-2784-4239-8551-aed5e435e60e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_scope
+    - node.type.project_prospectus
+  module:
+    - text
+id: node.project_prospectus.field_scope
+field_name: field_scope
+entity_type: node
+bundle: project_prospectus
+label: Scope
+description: "Describe the types of assets involved and/or services needed in the project.\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

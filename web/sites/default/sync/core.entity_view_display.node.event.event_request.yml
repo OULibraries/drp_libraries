@@ -1,0 +1,53 @@
+uuid: 8ad9834f-768d-415d-a775-5119eba510e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.event_request
+    - field.field.node.event.comment_node_event
+    - field.field.node.event.field_add_this_item_to_another_s
+    - field.field.node.event.field_description
+    - field.field.node.event.field_hp_carousel_start
+    - field.field.node.event.field_image
+    - field.field.node.event.field_publishing_status
+    - field.field.node.event.field_teaser
+    - image.style.300_x_200_focus
+    - node.type.event
+  module:
+    - image
+    - text
+    - user
+id: node.event.event_request
+targetEntityType: node
+bundle: event
+mode: event_request
+content:
+  field_description:
+    label: above
+    weight: 11
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    label: hidden
+    weight: 1
+    type: image
+    settings:
+      image_link: ''
+      image_style: 300_x_200_focus
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  comment_node_event: true
+  field_add_this_item_to_another_s: true
+  field_hp_carousel_start: true
+  field_publishing_status: true
+  field_teaser: true
+  search_api_excerpt: true

@@ -1,0 +1,11 @@
+uuid: 10236cef-707a-4dd2-8487-6e1c59ec593c
+langcode: en
+status: true
+dependencies: {  }
+id: gradstudent
+label: gradstudent
+weight: 7
+is_admin: null
+permissions:
+  - 'display EU Cookie Compliance popup'
+  - 'view the administration theme'

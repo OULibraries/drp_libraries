@@ -1,0 +1,32 @@
+uuid: 57b2d0e6-67a4-493e-8db6-35b47d580f81
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.locations_index
+    - field.field.node.picture.body
+    - field.field.node.picture.comment_node_picture
+    - field.field.node.picture.field_add_this_item_to_another_s
+    - field.field.node.picture.field_caption
+    - field.field.node.picture.field_picture
+    - node.type.picture
+  module:
+    - user
+id: node.picture.locations_index
+targetEntityType: node
+bundle: picture
+mode: locations_index
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  body: true
+  comment_node_picture: true
+  field_add_this_item_to_another_s: true
+  field_caption: true
+  field_picture: true
+  search_api_excerpt: true

@@ -1,0 +1,8 @@
+uuid: 00b13fe1-6fef-4536-b7ab-5599fe953727
+langcode: en
+status: true
+dependencies: {  }
+name: 'Available Technology'
+vid: available_technology
+description: 'Available technology in rooms.'
+weight: -10

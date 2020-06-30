@@ -1,0 +1,8 @@
+uuid: 136929be-988a-401b-a1a2-2d58a4aa0b8c
+langcode: en
+status: true
+dependencies: {  }
+id: menu-about
+label: About
+description: 'The <i> About</i> menu is for adding items to the About menu at the bottom of the About Us page.'
+locked: false

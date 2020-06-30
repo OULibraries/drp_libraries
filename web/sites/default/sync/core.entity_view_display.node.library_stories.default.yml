@@ -1,0 +1,147 @@
+uuid: 51481c34-c674-4992-b5b1-95a77e88c5c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_library_stories.default
+    - field.field.node.library_stories.comment_node_library_stories
+    - field.field.node.library_stories.field_add_to_events_page
+    - field.field.node.library_stories.field_archive
+    - field.field.node.library_stories.field_call_out_quote
+    - field.field.node.library_stories.field_caption
+    - field.field.node.library_stories.field_custom_area
+    - field.field.node.library_stories.field_extended_description
+    - field.field.node.library_stories.field_image
+    - field.field.node.library_stories.field_initiatives
+    - field.field.node.library_stories.field_introduction
+    - field.field.node.library_stories.field_link
+    - field.field.node.library_stories.field_pillars
+    - field.field.node.library_stories.field_sticky
+    - node.type.library_stories
+  module:
+    - comment
+    - entity_reference_revisions
+    - image
+    - link
+    - options
+    - text
+    - user
+id: node.library_stories.default
+targetEntityType: node
+bundle: library_stories
+mode: default
+content:
+  comment_node_library_stories:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    region: content
+  field_add_to_events_page:
+    label: above
+    weight: 8
+    type: list_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_archive:
+    label: above
+    weight: 9
+    type: list_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_call_out_quote:
+    label: above
+    weight: 3
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_caption:
+    label: above
+    weight: 13
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_custom_area:
+    label: hidden
+    weight: 11
+    type: entity_reference_revisions_entity_view
+    settings:
+      view_mode: full
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_extended_description:
+    label: above
+    weight: 5
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    label: above
+    weight: 1
+    type: image
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    region: content
+  field_initiatives:
+    label: above
+    weight: 14
+    type: entity_reference_label
+    settings:
+      link: true
+    third_party_settings: {  }
+    region: content
+  field_introduction:
+    label: above
+    weight: 4
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_link:
+    label: above
+    weight: 12
+    type: link
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    region: content
+  field_pillars:
+    label: above
+    weight: 15
+    type: entity_reference_label
+    settings:
+      link: true
+    third_party_settings: {  }
+    region: content
+  field_sticky:
+    label: above
+    weight: 10
+    type: list_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  search_api_excerpt: true

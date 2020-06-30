@@ -1,0 +1,10 @@
+uuid: ab73d9cf-95d9-4cb9-9f90-a84092ef86b5
+langcode: en
+status: true
+dependencies: {  }
+id: center_for_cont_ed
+label: center_for_cont_ed
+weight: 23
+is_admin: null
+permissions:
+  - 'display EU Cookie Compliance popup'

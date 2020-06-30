@@ -1,0 +1,11 @@
+uuid: 4ea587a2-8306-42fd-9bd7-562143a39f32
+langcode: en
+status: true
+dependencies: {  }
+id: faculty
+label: faculty
+weight: 6
+is_admin: null
+permissions:
+  - 'display EU Cookie Compliance popup'
+  - 'view the administration theme'

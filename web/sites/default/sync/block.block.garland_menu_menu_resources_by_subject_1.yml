@@ -1,0 +1,25 @@
+uuid: 2c935475-97b8-4a70-a811-a93b67368163
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.menu-resources-by-subject-1
+  module:
+    - system
+  theme:
+    - garland
+id: garland_menu_menu_resources_by_subject_1
+theme: garland
+region: ''
+weight: 0
+provider: null
+plugin: 'system_menu_block:menu-resources-by-subject-1'
+settings:
+  id: 'system_menu_block:menu-resources-by-subject-1'
+  label: 'Resources by Subject'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

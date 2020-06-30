@@ -1,0 +1,10 @@
+uuid: 0795aa74-7db4-4559-861a-7df41114b612
+langcode: en
+status: true
+dependencies: {  }
+id: image_left_text_right
+label: 'Image Left + Text Right'
+icon_uuid: null
+icon_default: null
+description: 'Migrated from paragraph bundle Image Left + Text Right'
+behavior_plugins: {  }

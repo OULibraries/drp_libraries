@@ -1,0 +1,18 @@
+uuid: 8f7fe287-850e-436c-9b16-ea64c62af69e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.units
+id: node.units.title
+field_name: title
+entity_type: node
+bundle: units
+label: 'Unit Name'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

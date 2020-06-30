@@ -1,0 +1,23 @@
+uuid: 221f3fbd-9d15-4467-ac01-fe25e70262d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email
+    - node.type.units
+  module:
+    - link
+id: node.units.field_email
+field_name: field_email
+entity_type: node
+bundle: units
+label: Email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 17
+field_type: link

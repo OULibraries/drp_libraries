@@ -1,0 +1,197 @@
+uuid: 78e549e0-71eb-4a90-b172-767505605d4d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_appointment
+    - field.field.user.user.field_bio
+    - field.field.user.user.field_departments
+    - field.field.user.user.field_employee_status
+    - field.field.user.user.field_fax
+    - field.field.user.user.field_firstname
+    - field.field.user.user.field_lastname
+    - field.field.user.user.field_liaison
+    - field.field.user.user.field_phone
+    - field.field.user.user.field_resource_by_subject
+    - field.field.user.user.field_searchable
+    - field.field.user.user.field_sooner_id
+    - field.field.user.user.field_specialties
+    - field.field.user.user.field_title
+    - field.field.user.user.ldap_user_current_dn
+    - field.field.user.user.ldap_user_last_checked
+    - field.field.user.user.ldap_user_ldap_exclude
+    - field.field.user.user.ldap_user_prov_entries
+    - field.field.user.user.ldap_user_puid
+    - field.field.user.user.ldap_user_puid_property
+    - field.field.user.user.ldap_user_puid_sid
+    - field.field.user.user.mass_contact_opt_out
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - field_layout
+    - image
+    - layout_discovery
+    - link
+    - path
+    - telephone
+    - text
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: -10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  contact:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_appointment:
+    weight: 10
+    type: link_default
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    region: content
+  field_bio:
+    weight: 13
+    type: text_textarea
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_departments:
+    weight: 4
+    type: options_select
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_employee_status:
+    weight: 3
+    type: options_select
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_fax:
+    weight: 9
+    type: telephone_default
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_firstname:
+    weight: 0
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_lastname:
+    weight: 1
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_liaison:
+    weight: 12
+    type: options_buttons
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_phone:
+    weight: 8
+    type: telephone_default
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_resource_by_subject:
+    weight: 11
+    type: options_buttons
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_searchable:
+    weight: 26
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    region: content
+  field_sooner_id:
+    weight: 24
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_specialties:
+    weight: 25
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 5
+    type: text_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  language:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  mass_contact_opt_out:
+    type: options_buttons
+    settings: {  }
+    weight: 7
+    third_party_settings: {  }
+    region: content
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  timezone:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  user_picture:
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    type: image_image
+    weight: 31
+    third_party_settings: {  }
+    region: content
+hidden:
+  ldap_user_current_dn: true
+  ldap_user_last_checked: true
+  ldap_user_ldap_exclude: true
+  ldap_user_prov_entries: true
+  ldap_user_puid: true
+  ldap_user_puid_property: true
+  ldap_user_puid_sid: true

@@ -1,0 +1,14 @@
+uuid: 18007036-b5f0-40bb-b804-636c856d8899
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ou_law
+  module:
+    - user
+id: user_add_role_action.ou_law
+label: 'Add the ou_law role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: ou_law

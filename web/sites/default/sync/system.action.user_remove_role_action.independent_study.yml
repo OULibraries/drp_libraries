@@ -1,0 +1,14 @@
+uuid: a955e45f-4adb-4617-8fc2-98220dd7397a
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.independent_study
+  module:
+    - user
+id: user_remove_role_action.independent_study
+label: 'Remove the independent_study role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: independent_study

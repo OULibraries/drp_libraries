@@ -1,0 +1,55 @@
+uuid: ac2bdb55-8266-4631-959f-a21f0f423ffe
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access ILLiad'
+  - 'access comments'
+  - 'access content'
+  - 'access ezproxy content'
+  - 'access gmap getdirections'
+  - 'access own webform results'
+  - 'access own webform submissions'
+  - 'access primo discovery'
+  - 'access print'
+  - 'access send by email'
+  - 'access site-wide contact form'
+  - 'access user contact forms'
+  - 'access user profiles'
+  - 'change own e-mail'
+  - 'change own openid'
+  - 'change own password'
+  - 'create resource_problem content'
+  - 'create webform content'
+  - 'delete own resource_problem content'
+  - 'display EU Cookie Compliance popup'
+  - 'edit own resource_problem content'
+  - 'edit own webform content'
+  - 'flag databaseflag'
+  - 'flag ereferenceflag'
+  - 'flag favorites'
+  - 'flag locations'
+  - 'flag my_library'
+  - 'flag research_guides'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'unflag databaseflag'
+  - 'unflag ereferenceflag'
+  - 'unflag favorites'
+  - 'unflag locations'
+  - 'unflag my_library'
+  - 'unflag research_guides'
+  - 'use text format filtered_html'
+  - 'view field_restricted_file'
+  - 'view field_status'
+  - 'view field_title'
+  - 'view own field_status'
+  - 'view own field_status_notes'
+  - 'view own field_title'

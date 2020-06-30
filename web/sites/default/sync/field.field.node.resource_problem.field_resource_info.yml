@@ -1,0 +1,21 @@
+uuid: 0e895759-0351-4c95-9e82-359a71301889
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resource_info
+    - node.type.resource_problem
+  module:
+    - options
+id: node.resource_problem.field_resource_info
+field_name: field_resource_info
+entity_type: node
+bundle: resource_problem
+label: 'More Information By Resource Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

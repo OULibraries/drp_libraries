@@ -1,0 +1,10 @@
+uuid: 0bdef904-665e-47f2-96ce-296763f1e9d3
+langcode: en
+status: true
+dependencies: {  }
+id: mass_contact_test_web_team
+label: Mass_Contact_Test_Web_Team
+weight: 41
+is_admin: null
+permissions:
+  - 'mass contact send to users in the Test - Web Team category'

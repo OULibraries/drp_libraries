@@ -1,0 +1,27 @@
+uuid: 37e51f25-3b66-42a6-bbf3-723a3945d3c0
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_resource_info
+field_name: field_resource_info
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: E-Journal
+      label: E-Journal
+    -
+      value: E-Book
+      label: E-Book
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

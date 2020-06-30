@@ -1,0 +1,14 @@
+uuid: 677d08e0-02b3-4798-a13f-d31f6bc08a9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.room
+  module:
+    - user
+id: user_remove_role_action.room
+label: 'Remove the Room role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: room

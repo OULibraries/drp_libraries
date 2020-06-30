@@ -1,0 +1,8 @@
+uuid: e2b52153-f1b6-4191-a703-1e465eff94c7
+langcode: en
+status: true
+dependencies: {  }
+id: menu-quick-links
+label: 'Quick Links'
+description: 'The <i>Quick Links</i> menu is for adding items to the quick links menu on the home page.'
+locked: false

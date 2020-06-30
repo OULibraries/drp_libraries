@@ -1,0 +1,21 @@
+uuid: 9fee1cd8-5fba-4288-8e2d-f172c1f205fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_project_needs
+    - node.type.project_prospectus
+  module:
+    - text
+id: node.project_prospectus.field_project_needs
+field_name: field_project_needs
+entity_type: node
+bundle: project_prospectus
+label: 'Project Needs and Requirements'
+description: 'Provide a general overview of the resource needs of this project. Will this project require digitization, website development, or software development? Will project team members need to undergo training in order to complete this project? Would specific tools or programs for this project need to be purchased and made available on team members’ computers?'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,19 @@
+uuid: d4b0225b-e8cc-4744-b7d7-8a2d387eacab
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_project_needs
+field_name: field_project_needs
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

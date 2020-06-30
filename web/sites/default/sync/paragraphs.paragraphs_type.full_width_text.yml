@@ -1,0 +1,10 @@
+uuid: 1f1d56a9-0f90-4daa-9519-c7d07c53864e
+langcode: en
+status: true
+dependencies: {  }
+id: full_width_text
+label: 'Full-Width Text'
+icon_uuid: null
+icon_default: null
+description: 'Migrated from paragraph bundle Full-Width Text'
+behavior_plugins: {  }

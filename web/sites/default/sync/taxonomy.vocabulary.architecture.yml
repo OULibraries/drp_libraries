@@ -1,0 +1,8 @@
+uuid: d6bb072c-89dc-4a7d-9c4f-de03d86db27d
+langcode: en
+status: true
+dependencies: {  }
+name: Subjects
+vid: architecture
+description: 'Resources by Subject'
+weight: 0

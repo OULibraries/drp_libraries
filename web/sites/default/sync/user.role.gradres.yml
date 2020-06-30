@@ -1,0 +1,10 @@
+uuid: 1c06f991-a0d4-4bef-ad39-1444c3529181
+langcode: en
+status: true
+dependencies: {  }
+id: gradres
+label: gradres
+weight: 37
+is_admin: null
+permissions:
+  - 'display EU Cookie Compliance popup'

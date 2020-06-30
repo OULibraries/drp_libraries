@@ -1,0 +1,23 @@
+uuid: a091908d-80b7-4e81-8d73-ad7e88b24e58
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sticky
+    - node.type.library_stories
+id: node.library_stories.field_sticky
+field_name: field_sticky
+entity_type: node
+bundle: library_stories
+label: 'Sticky at Top'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: ''
+  off_label: ''
+field_type: boolean

@@ -1,0 +1,10 @@
+uuid: 08a3eb32-36fd-436b-978e-a2026f74fa4b
+langcode: en
+status: true
+dependencies: {  }
+id: featured_areas_alt
+label: 'Featured List White Background'
+icon_uuid: null
+icon_default: null
+description: 'Migrated from paragraph bundle Featured List White Background'
+behavior_plugins: {  }

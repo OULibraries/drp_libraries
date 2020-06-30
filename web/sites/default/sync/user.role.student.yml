@@ -1,0 +1,10 @@
+uuid: 3c00b40a-7847-45fe-bf08-4eaad8906e7c
+langcode: en
+status: true
+dependencies: {  }
+id: student
+label: student
+weight: 9
+is_admin: null
+permissions:
+  - 'display EU Cookie Compliance popup'

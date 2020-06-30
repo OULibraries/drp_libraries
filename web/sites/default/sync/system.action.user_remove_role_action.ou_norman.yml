@@ -1,0 +1,14 @@
+uuid: 5c3d0dd8-fa41-45a0-b3db-298046a60707
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ou_norman
+  module:
+    - user
+id: user_remove_role_action.ou_norman
+label: 'Remove the ou_norman role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: ou_norman

@@ -1,0 +1,23 @@
+uuid: b2755cca-cfd9-427d-b38c-73e439f82dec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_proxy
+    - node.type.eresources
+id: node.eresources.field_proxy
+field_name: field_proxy
+entity_type: node
+bundle: eresources
+label: Proxy
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'yes'
+  off_label: 'no'
+field_type: boolean

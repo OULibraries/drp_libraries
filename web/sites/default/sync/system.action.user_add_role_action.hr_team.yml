@@ -1,0 +1,14 @@
+uuid: 1779e42b-e1b4-4ce8-9e50-db3cd685922e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.hr_team
+  module:
+    - user
+id: user_add_role_action.hr_team
+label: 'Add the HR Team role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: hr_team

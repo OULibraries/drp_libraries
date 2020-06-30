@@ -1,0 +1,21 @@
+uuid: b3bc1b6e-c617-4dcd-99f6-c001fb24f356
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_date_complete15
+field_name: field_date_complete15
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

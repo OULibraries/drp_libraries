@@ -1,0 +1,15 @@
+uuid: 8a375f6d-efec-4801-9664-3254be1bd0a3
+langcode: en
+status: true
+dependencies: {  }
+id: assignment_calculator
+label: 'assignment calculator'
+weight: 33
+is_admin: null
+permissions:
+  - 'create assignment_template content'
+  - 'delete any assignment_template content'
+  - 'delete own assignment_template content'
+  - 'display EU Cookie Compliance popup'
+  - 'edit any assignment_template content'
+  - 'edit own assignment_template content'

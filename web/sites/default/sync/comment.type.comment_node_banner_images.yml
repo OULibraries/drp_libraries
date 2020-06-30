@@ -1,0 +1,8 @@
+uuid: aa61ef21-d873-4f94-8f04-7f8e3e68e3b3
+langcode: en
+status: true
+dependencies: {  }
+id: comment_node_banner_images
+label: 'Banner Images comment'
+target_entity_type_id: node
+description: null

@@ -1,0 +1,71 @@
+uuid: ac907214-cdb3-46ed-b17c-79fc5a0fde62
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_picture.default
+    - field.field.node.picture.body
+    - field.field.node.picture.comment_node_picture
+    - field.field.node.picture.field_add_this_item_to_another_s
+    - field.field.node.picture.field_caption
+    - field.field.node.picture.field_picture
+    - node.type.picture
+  module:
+    - comment
+    - image
+    - text
+    - user
+id: node.picture.default
+targetEntityType: node
+bundle: picture
+mode: default
+content:
+  body:
+    label: hidden
+    weight: 0
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  comment_node_picture:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    region: content
+  field_add_this_item_to_another_s:
+    label: above
+    weight: 5
+    type: entity_reference_label
+    settings:
+      link: true
+    third_party_settings: {  }
+    region: content
+  field_caption:
+    label: above
+    weight: 4
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_picture:
+    label: above
+    weight: 3
+    type: image
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  search_api_excerpt: true

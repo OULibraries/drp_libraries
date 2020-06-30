@@ -1,0 +1,14 @@
+uuid: 388d5b3b-a703-4719-b229-23a9247d3a39
+name: 'University of Oklahoma Libraries'
+mail: lib-noreply@ou.edu
+slogan: ''
+page:
+  403: /
+  404: /
+  front: /frontpage
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

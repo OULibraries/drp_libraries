@@ -1,0 +1,32 @@
+uuid: f20a006e-8176-4d9a-bd45-95b272dbb11c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.location_single
+    - field.field.node.picture.body
+    - field.field.node.picture.comment_node_picture
+    - field.field.node.picture.field_add_this_item_to_another_s
+    - field.field.node.picture.field_caption
+    - field.field.node.picture.field_picture
+    - node.type.picture
+  module:
+    - user
+id: node.picture.location_single
+targetEntityType: node
+bundle: picture
+mode: location_single
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  body: true
+  comment_node_picture: true
+  field_add_this_item_to_another_s: true
+  field_caption: true
+  field_picture: true
+  search_api_excerpt: true

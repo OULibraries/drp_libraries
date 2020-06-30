@@ -1,0 +1,14 @@
+uuid: a3c922cc-7f0e-4aff-93cf-89dd4cfb3510
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.lib_students
+  module:
+    - user
+id: user_remove_role_action.lib_students
+label: 'Remove the Lib-students role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: lib_students

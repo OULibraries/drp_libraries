@@ -1,0 +1,25 @@
+uuid: 13c057a4-0461-47bb-a56d-0f7faa6521a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-resources-by-subject-3
+  module:
+    - system
+  theme:
+    - oulib_bootstrap
+id: oulib_bootstrap_menu_menu_resources_by_subject_3
+theme: oulib_bootstrap
+region: libfooter_third
+weight: 0
+provider: null
+plugin: 'system_menu_block:menu-resources-by-subject-3'
+settings:
+  id: 'system_menu_block:menu-resources-by-subject-3'
+  label: ''
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

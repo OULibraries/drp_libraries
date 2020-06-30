@@ -1,0 +1,25 @@
+uuid: e6556fc6-dd65-4480-92a0-985747ad743b
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.menu-quick-links
+  module:
+    - system
+  theme:
+    - garland
+id: garland_menu_menu_quick_links
+theme: garland
+region: ''
+weight: 0
+provider: null
+plugin: 'system_menu_block:menu-quick-links'
+settings:
+  id: 'system_menu_block:menu-quick-links'
+  label: 'Quick Links'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

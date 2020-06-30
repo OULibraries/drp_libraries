@@ -1,0 +1,63 @@
+uuid: ffd19091-ed8b-43f9-8ca0-78f5d49281ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_page.default
+    - field.field.node.page.comment_node_page
+    - field.field.node.page.field_build_your_page
+    - field.field.node.page.field_content_owner
+    - field.field.node.page.field_last_updated
+    - field.field.node.page.field_needs_annual_audit
+    - field.field.node.page.field_one_sentence_teaser
+    - field.field.node.page.field_please_address_the_followi
+    - field.field.node.page.field_publishing_status
+    - field.field.node.page.field_this_content_needs_review
+    - node.type.page
+  module:
+    - comment
+    - entity_reference_revisions
+    - user
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  comment_node_page:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    region: content
+  field_build_your_page:
+    label: hidden
+    weight: 0
+    type: entity_reference_revisions_entity_view
+    settings:
+      view_mode: full
+      link: ''
+    third_party_settings: {  }
+    region: content
+  flag_bookmark:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  field_content_owner: true
+  field_last_updated: true
+  field_needs_annual_audit: true
+  field_one_sentence_teaser: true
+  field_please_address_the_followi: true
+  field_publishing_status: true
+  field_this_content_needs_review: true
+  search_api_excerpt: true

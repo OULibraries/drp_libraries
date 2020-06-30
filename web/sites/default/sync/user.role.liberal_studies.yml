@@ -1,0 +1,10 @@
+uuid: c20d8efe-736c-4bba-a261-cfff09910ed6
+langcode: en
+status: true
+dependencies: {  }
+id: liberal_studies
+label: liberal_studies
+weight: 25
+is_admin: null
+permissions:
+  - 'display EU Cookie Compliance popup'

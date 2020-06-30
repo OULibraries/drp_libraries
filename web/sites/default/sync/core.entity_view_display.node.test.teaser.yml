@@ -1,0 +1,40 @@
+uuid: f86241b3-6b27-42e6-a703-d796c43a6b62
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.test.body
+    - field.field.node.test.comment_node_test
+    - field.field.node.test.field_audit_period
+    - field.field.node.test.field_last_updated
+    - field.field.node.test.field_publishing_status
+    - node.type.test
+  module:
+    - text
+    - user
+id: node.test.teaser
+targetEntityType: node
+bundle: test
+mode: teaser
+content:
+  body:
+    label: hidden
+    weight: 0
+    type: text_summary_or_trimmed
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  comment_node_test: true
+  field_audit_period: true
+  field_last_updated: true
+  field_publishing_status: true
+  search_api_excerpt: true

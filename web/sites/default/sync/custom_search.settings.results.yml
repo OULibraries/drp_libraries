@@ -1,0 +1,76 @@
+node_search:
+  path: node
+  search: true
+  advanced:
+    visibility: true
+    collapsible: true
+    collapsed: true
+    criteria:
+      or: or
+      phrase: phrase
+      negative: negative
+    types:
+      announcement: announcement
+      assignment_template: assignment_template
+      banner_images: banner_images
+      blog: blog
+      eresources: eresources
+      event: event
+      guides: guides
+      imp_chal_chap: imp_chal_chap
+      jobs: jobs
+      lending_technology: lending_technology
+      library_stories: library_stories
+      mass_contact: mass_contact
+      page: page
+      panel: panel
+      picture: picture
+      policy: policy
+      project_prospectus: project_prospectus
+      resource_problem: resource_problem
+      service: service
+      special_collections: special_collections
+      test: test
+      units: units
+      videos: videos
+      webform: webform
+    languages:
+      en: en
+      und: und
+      zxx: zxx
+  info:
+    type: type
+    user: user
+    date: date
+    comment: comment
+  filter:
+    position: disabled
+    label: 'Filter the results'
+    any: '- Any -'
+user_search:
+  advanced:
+    types:
+      announcement: announcement
+      assignment_template: assignment_template
+      banner_images: banner_images
+      blog: blog
+      eresources: eresources
+      event: event
+      guides: guides
+      imp_chal_chap: imp_chal_chap
+      jobs: jobs
+      lending_technology: lending_technology
+      library_stories: library_stories
+      mass_contact: mass_contact
+      page: page
+      panel: panel
+      picture: picture
+      policy: policy
+      project_prospectus: project_prospectus
+      resource_problem: resource_problem
+      service: service
+      special_collections: special_collections
+      test: test
+      units: units
+      videos: videos
+      webform: webform

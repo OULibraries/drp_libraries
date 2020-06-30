@@ -1,0 +1,22 @@
+uuid: 7df59d03-3d36-4681-9527-d5e65c8a0c6e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - oulib_bootstrap
+_core:
+  default_config_hash: QTwkfDaGeBUk6aerktJBDXso4fCsqLTQOuWKXE1xMPU
+id: oulib_bootstrap_system_main
+theme: oulib_bootstrap
+region: content
+weight: -63
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: ''
+  provider: system
+  label_display: '0'
+visibility: {  }

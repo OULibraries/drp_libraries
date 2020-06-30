@@ -1,0 +1,10 @@
+uuid: 058b53f9-1e68-451e-9dbe-1f7b3858b9f8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.location_single
+label: location_single
+targetEntityType: node
+cache: true

@@ -1,0 +1,156 @@
+uuid: 001881c4-cecb-4f53-95f5-b9b588cd1edb
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_project_prospectus.default
+    - field.field.node.project_prospectus.comment_node_project_prospectus
+    - field.field.node.project_prospectus.field_contact_email
+    - field.field.node.project_prospectus.field_contact_name
+    - field.field.node.project_prospectus.field_contribution_to_ou_goals
+    - field.field.node.project_prospectus.field_deliverables
+    - field.field.node.project_prospectus.field_description
+    - field.field.node.project_prospectus.field_goals
+    - field.field.node.project_prospectus.field_implications_of_not_doing
+    - field.field.node.project_prospectus.field_out_of_scope
+    - field.field.node.project_prospectus.field_phone
+    - field.field.node.project_prospectus.field_project_needs
+    - field.field.node.project_prospectus.field_scheduling
+    - field.field.node.project_prospectus.field_scope
+    - field.field.node.project_prospectus.field_success_factors
+    - field.field.node.project_prospectus.field_sustainability
+    - field.field.node.project_prospectus.field_team_members
+    - node.type.project_prospectus
+  module:
+    - comment
+    - text
+    - user
+id: node.project_prospectus.default
+targetEntityType: node
+bundle: project_prospectus
+mode: default
+content:
+  comment_node_project_prospectus:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    region: content
+  field_contact_email:
+    label: above
+    weight: 14
+    type: email_mailto
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_contact_name:
+    label: above
+    weight: 13
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_contribution_to_ou_goals:
+    label: above
+    weight: 11
+    type: basic_string
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_deliverables:
+    label: above
+    weight: 2
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_description:
+    label: above
+    weight: 1
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_goals:
+    label: above
+    weight: 5
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_implications_of_not_doing:
+    label: above
+    weight: 12
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_out_of_scope:
+    label: above
+    weight: 4
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_phone:
+    label: above
+    weight: 15
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_project_needs:
+    label: above
+    weight: 9
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_scheduling:
+    label: above
+    weight: 8
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_scope:
+    label: above
+    weight: 3
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_success_factors:
+    label: above
+    weight: 6
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_sustainability:
+    label: above
+    weight: 10
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_team_members:
+    label: above
+    weight: 7
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  search_api_excerpt: true

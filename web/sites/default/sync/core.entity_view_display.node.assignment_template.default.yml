@@ -1,0 +1,695 @@
+uuid: fac21741-9c55-4ef8-9f6d-c9760389054a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_assignment_template.default
+    - field.field.node.assignment_template.body
+    - field.field.node.assignment_template.comment_node_assignment_template
+    - field.field.node.assignment_template.field_add_step1
+    - field.field.node.assignment_template.field_add_step10
+    - field.field.node.assignment_template.field_add_step11
+    - field.field.node.assignment_template.field_add_step12
+    - field.field.node.assignment_template.field_add_step13
+    - field.field.node.assignment_template.field_add_step14
+    - field.field.node.assignment_template.field_add_step2
+    - field.field.node.assignment_template.field_add_step3
+    - field.field.node.assignment_template.field_add_step4
+    - field.field.node.assignment_template.field_add_step5
+    - field.field.node.assignment_template.field_add_step6
+    - field.field.node.assignment_template.field_add_step7
+    - field.field.node.assignment_template.field_add_step8
+    - field.field.node.assignment_template.field_add_step9
+    - field.field.node.assignment_template.field_date_complete1
+    - field.field.node.assignment_template.field_date_complete10
+    - field.field.node.assignment_template.field_date_complete11
+    - field.field.node.assignment_template.field_date_complete12
+    - field.field.node.assignment_template.field_date_complete13
+    - field.field.node.assignment_template.field_date_complete14
+    - field.field.node.assignment_template.field_date_complete15
+    - field.field.node.assignment_template.field_date_complete2
+    - field.field.node.assignment_template.field_date_complete3
+    - field.field.node.assignment_template.field_date_complete4
+    - field.field.node.assignment_template.field_date_complete5
+    - field.field.node.assignment_template.field_date_complete6
+    - field.field.node.assignment_template.field_date_complete7
+    - field.field.node.assignment_template.field_date_complete8
+    - field.field.node.assignment_template.field_date_complete9
+    - field.field.node.assignment_template.field_percentage1
+    - field.field.node.assignment_template.field_percentage10
+    - field.field.node.assignment_template.field_percentage11
+    - field.field.node.assignment_template.field_percentage12
+    - field.field.node.assignment_template.field_percentage13
+    - field.field.node.assignment_template.field_percentage14
+    - field.field.node.assignment_template.field_percentage15
+    - field.field.node.assignment_template.field_percentage2
+    - field.field.node.assignment_template.field_percentage3
+    - field.field.node.assignment_template.field_percentage4
+    - field.field.node.assignment_template.field_percentage5
+    - field.field.node.assignment_template.field_percentage6
+    - field.field.node.assignment_template.field_percentage7
+    - field.field.node.assignment_template.field_percentage8
+    - field.field.node.assignment_template.field_percentage9
+    - field.field.node.assignment_template.field_resources1
+    - field.field.node.assignment_template.field_resources10
+    - field.field.node.assignment_template.field_resources11
+    - field.field.node.assignment_template.field_resources12
+    - field.field.node.assignment_template.field_resources13
+    - field.field.node.assignment_template.field_resources14
+    - field.field.node.assignment_template.field_resources15
+    - field.field.node.assignment_template.field_resources2
+    - field.field.node.assignment_template.field_resources3
+    - field.field.node.assignment_template.field_resources4
+    - field.field.node.assignment_template.field_resources5
+    - field.field.node.assignment_template.field_resources6
+    - field.field.node.assignment_template.field_resources7
+    - field.field.node.assignment_template.field_resources8
+    - field.field.node.assignment_template.field_resources9
+    - field.field.node.assignment_template.field_step_title1
+    - field.field.node.assignment_template.field_step_title10
+    - field.field.node.assignment_template.field_step_title11
+    - field.field.node.assignment_template.field_step_title12
+    - field.field.node.assignment_template.field_step_title13
+    - field.field.node.assignment_template.field_step_title14
+    - field.field.node.assignment_template.field_step_title15
+    - field.field.node.assignment_template.field_step_title2
+    - field.field.node.assignment_template.field_step_title3
+    - field.field.node.assignment_template.field_step_title4
+    - field.field.node.assignment_template.field_step_title5
+    - field.field.node.assignment_template.field_step_title6
+    - field.field.node.assignment_template.field_step_title7
+    - field.field.node.assignment_template.field_step_title8
+    - field.field.node.assignment_template.field_step_title9
+    - node.type.assignment_template
+  module:
+    - comment
+    - options
+    - text
+    - user
+id: node.assignment_template.default
+targetEntityType: node
+bundle: assignment_template
+mode: default
+content:
+  body:
+    label: hidden
+    weight: 0
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  comment_node_assignment_template:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    region: content
+  field_add_step1:
+    label: above
+    weight: 5
+    type: list_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_add_step10:
+    label: above
+    weight: 50
+    type: list_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_add_step11:
+    label: above
+    weight: 55
+    type: list_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_add_step12:
+    label: above
+    weight: 60
+    type: list_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_add_step13:
+    label: above
+    weight: 65
+    type: list_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_add_step14:
+    label: above
+    weight: 70
+    type: list_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_add_step2:
+    label: above
+    weight: 10
+    type: list_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_add_step3:
+    label: above
+    weight: 15
+    type: list_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_add_step4:
+    label: above
+    weight: 20
+    type: list_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_add_step5:
+    label: above
+    weight: 25
+    type: list_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_add_step6:
+    label: above
+    weight: 30
+    type: list_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_add_step7:
+    label: above
+    weight: 35
+    type: list_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_add_step8:
+    label: above
+    weight: 40
+    type: list_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_add_step9:
+    label: above
+    weight: 45
+    type: list_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_date_complete1:
+    label: inline
+    weight: 3
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_date_complete10:
+    label: inline
+    weight: 48
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_date_complete11:
+    label: inline
+    weight: 53
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_date_complete12:
+    label: inline
+    weight: 58
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_date_complete13:
+    label: inline
+    weight: 63
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_date_complete14:
+    label: inline
+    weight: 68
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_date_complete15:
+    label: inline
+    weight: 73
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_date_complete2:
+    label: inline
+    weight: 8
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_date_complete3:
+    label: inline
+    weight: 13
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_date_complete4:
+    label: inline
+    weight: 18
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_date_complete5:
+    label: inline
+    weight: 23
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_date_complete6:
+    label: inline
+    weight: 28
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_date_complete7:
+    label: inline
+    weight: 33
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_date_complete8:
+    label: inline
+    weight: 38
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_date_complete9:
+    label: inline
+    weight: 43
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_percentage1:
+    label: inline
+    weight: 2
+    type: number_integer
+    settings:
+      prefix_suffix: true
+      thousand_separator: ''
+    third_party_settings: {  }
+    region: content
+  field_percentage10:
+    label: inline
+    weight: 47
+    type: number_integer
+    settings:
+      prefix_suffix: true
+      thousand_separator: ''
+    third_party_settings: {  }
+    region: content
+  field_percentage11:
+    label: inline
+    weight: 52
+    type: number_integer
+    settings:
+      prefix_suffix: true
+      thousand_separator: ''
+    third_party_settings: {  }
+    region: content
+  field_percentage12:
+    label: inline
+    weight: 57
+    type: number_integer
+    settings:
+      prefix_suffix: true
+      thousand_separator: ''
+    third_party_settings: {  }
+    region: content
+  field_percentage13:
+    label: inline
+    weight: 62
+    type: number_integer
+    settings:
+      prefix_suffix: true
+      thousand_separator: ''
+    third_party_settings: {  }
+    region: content
+  field_percentage14:
+    label: inline
+    weight: 67
+    type: number_integer
+    settings:
+      prefix_suffix: true
+      thousand_separator: ''
+    third_party_settings: {  }
+    region: content
+  field_percentage15:
+    label: inline
+    weight: 72
+    type: number_integer
+    settings:
+      prefix_suffix: true
+      thousand_separator: ''
+    third_party_settings: {  }
+    region: content
+  field_percentage2:
+    label: inline
+    weight: 7
+    type: number_integer
+    settings:
+      prefix_suffix: true
+      thousand_separator: ''
+    third_party_settings: {  }
+    region: content
+  field_percentage3:
+    label: inline
+    weight: 12
+    type: number_integer
+    settings:
+      prefix_suffix: true
+      thousand_separator: ''
+    third_party_settings: {  }
+    region: content
+  field_percentage4:
+    label: inline
+    weight: 17
+    type: number_integer
+    settings:
+      prefix_suffix: true
+      thousand_separator: ''
+    third_party_settings: {  }
+    region: content
+  field_percentage5:
+    label: inline
+    weight: 22
+    type: number_integer
+    settings:
+      prefix_suffix: true
+      thousand_separator: ''
+    third_party_settings: {  }
+    region: content
+  field_percentage6:
+    label: inline
+    weight: 27
+    type: number_integer
+    settings:
+      prefix_suffix: true
+      thousand_separator: ''
+    third_party_settings: {  }
+    region: content
+  field_percentage7:
+    label: inline
+    weight: 32
+    type: number_integer
+    settings:
+      prefix_suffix: true
+      thousand_separator: ''
+    third_party_settings: {  }
+    region: content
+  field_percentage8:
+    label: inline
+    weight: 37
+    type: number_integer
+    settings:
+      prefix_suffix: true
+      thousand_separator: ''
+    third_party_settings: {  }
+    region: content
+  field_percentage9:
+    label: inline
+    weight: 42
+    type: number_integer
+    settings:
+      prefix_suffix: true
+      thousand_separator: ''
+    third_party_settings: {  }
+    region: content
+  field_resources1:
+    label: hidden
+    weight: 4
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_resources10:
+    label: hidden
+    weight: 49
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_resources11:
+    label: hidden
+    weight: 54
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_resources12:
+    label: hidden
+    weight: 59
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_resources13:
+    label: hidden
+    weight: 64
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_resources14:
+    label: hidden
+    weight: 69
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_resources15:
+    label: hidden
+    weight: 74
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_resources2:
+    label: hidden
+    weight: 9
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_resources3:
+    label: hidden
+    weight: 14
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_resources4:
+    label: hidden
+    weight: 19
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_resources5:
+    label: hidden
+    weight: 24
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_resources6:
+    label: hidden
+    weight: 29
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_resources7:
+    label: hidden
+    weight: 34
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_resources8:
+    label: hidden
+    weight: 39
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_resources9:
+    label: hidden
+    weight: 44
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_step_title1:
+    label: hidden
+    weight: 1
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_step_title10:
+    label: hidden
+    weight: 46
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_step_title11:
+    label: hidden
+    weight: 51
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_step_title12:
+    label: hidden
+    weight: 56
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_step_title13:
+    label: hidden
+    weight: 61
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_step_title14:
+    label: hidden
+    weight: 66
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_step_title15:
+    label: hidden
+    weight: 71
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_step_title2:
+    label: hidden
+    weight: 6
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_step_title3:
+    label: hidden
+    weight: 11
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_step_title4:
+    label: hidden
+    weight: 16
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_step_title5:
+    label: hidden
+    weight: 21
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_step_title6:
+    label: hidden
+    weight: 26
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_step_title7:
+    label: hidden
+    weight: 31
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_step_title8:
+    label: hidden
+    weight: 36
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_step_title9:
+    label: hidden
+    weight: 41
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  search_api_excerpt: true

@@ -1,0 +1,38 @@
+uuid: f74c3068-6ae4-4155-990f-f0bf2189a183
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.jobs.body
+    - field.field.node.jobs.comment_node_jobs
+    - field.field.node.jobs.field_job_link
+    - field.field.node.jobs.field_job_status
+    - node.type.jobs
+  module:
+    - text
+    - user
+id: node.jobs.teaser
+targetEntityType: node
+bundle: jobs
+mode: teaser
+content:
+  body:
+    label: hidden
+    weight: 0
+    type: text_summary_or_trimmed
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  comment_node_jobs: true
+  field_job_link: true
+  field_job_status: true
+  search_api_excerpt: true

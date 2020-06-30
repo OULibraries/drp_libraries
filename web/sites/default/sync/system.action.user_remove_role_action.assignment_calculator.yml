@@ -1,0 +1,14 @@
+uuid: 2a56c1f3-e098-42ab-9795-9e384e5d09d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.assignment_calculator
+  module:
+    - user
+id: user_remove_role_action.assignment_calculator
+label: 'Remove the assignment calculator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: assignment_calculator

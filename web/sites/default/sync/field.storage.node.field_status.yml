@@ -1,0 +1,33 @@
+uuid: eb13ecd1-049e-47ff-8638-7e835d680590
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_status
+field_name: field_status
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: New
+      label: New
+    -
+      value: 'In Progress'
+      label: 'In Progress'
+    -
+      value: Reported
+      label: Reported
+    -
+      value: Resolved
+      label: Resolved
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,14 @@
+uuid: 33553957-1483-4eb2-a35d-953bb973fa2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ou_hsc
+  module:
+    - user
+id: user_remove_role_action.ou_hsc
+label: 'Remove the ou_hsc role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: ou_hsc

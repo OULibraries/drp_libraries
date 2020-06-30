@@ -1,0 +1,14 @@
+uuid: 8fd37308-9153-4083-a8a1-101275fc13f2
+langcode: en
+status: true
+dependencies: {  }
+id: tech_lending_maintainer
+label: 'Tech Lending Maintainer'
+weight: 42
+is_admin: null
+permissions:
+  - 'create lending_technology content'
+  - 'delete any lending_technology content'
+  - 'delete own lending_technology content'
+  - 'edit any lending_technology content'
+  - 'edit own lending_technology content'

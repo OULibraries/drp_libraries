@@ -1,0 +1,23 @@
+uuid: e084d862-5712-44b8-8eb1-3f9decb5ecd9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_audit_period
+    - node.type.test
+  module:
+    - options
+id: node.test.field_audit_period
+field_name: field_audit_period
+entity_type: node
+bundle: test
+label: 'Audit Period'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 3
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

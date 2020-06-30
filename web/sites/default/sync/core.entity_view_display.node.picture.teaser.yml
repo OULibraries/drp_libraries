@@ -1,0 +1,40 @@
+uuid: 399d9054-8680-4804-a825-d7df6ef4e679
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.picture.body
+    - field.field.node.picture.comment_node_picture
+    - field.field.node.picture.field_add_this_item_to_another_s
+    - field.field.node.picture.field_caption
+    - field.field.node.picture.field_picture
+    - node.type.picture
+  module:
+    - text
+    - user
+id: node.picture.teaser
+targetEntityType: node
+bundle: picture
+mode: teaser
+content:
+  body:
+    label: hidden
+    weight: 0
+    type: text_summary_or_trimmed
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  comment_node_picture: true
+  field_add_this_item_to_another_s: true
+  field_caption: true
+  field_picture: true
+  search_api_excerpt: true

@@ -1,0 +1,14 @@
+uuid: 4956535a-30db-4423-9a43-730543fe5fba
+langcode: en
+status: true
+dependencies: {  }
+id: hours_manager
+label: 'hours manager'
+weight: 18
+is_admin: null
+permissions:
+  - 'access admin theme'
+  - 'administer nodes'
+  - 'administer opening hours configuration'
+  - 'display EU Cookie Compliance popup'
+  - 'edit opening hours for content'

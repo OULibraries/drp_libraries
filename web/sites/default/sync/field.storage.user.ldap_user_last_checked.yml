@@ -1,0 +1,20 @@
+uuid: 53cd87cc-d0ea-41b6-979b-bf1e556778fc
+langcode: und
+status: true
+dependencies:
+  module:
+    - user
+id: user.ldap_user_last_checked
+field_name: ldap_user_last_checked
+entity_type: user
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,20 @@
+uuid: f06a31d9-ea89-4470-8c42-3fa5e2629c61
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - node
+id: node.comment_node_imp_chal_chap
+field_name: comment_node_imp_chal_chap
+entity_type: node
+type: comment
+settings:
+  comment_type: comment_node_imp_chal_chap
+module: comment
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

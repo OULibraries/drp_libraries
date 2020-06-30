@@ -1,0 +1,14 @@
+uuid: 2ed65b5a-3b48-4f5f-b685-6519954a6af7
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.undres
+  module:
+    - user
+id: user_remove_role_action.undres
+label: 'Remove the undres role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: undres

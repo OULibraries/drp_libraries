@@ -1,0 +1,20 @@
+uuid: 6a76a84c-9777-4ce9-8b2a-0b361a568d0a
+langcode: und
+status: true
+dependencies:
+  module:
+    - taxonomy
+    - user
+id: user.field_liaison
+field_name: field_liaison
+entity_type: user
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,19 @@
+uuid: d9df14bc-f7ff-43f4-b30a-a68ac112bd7e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_volume_issue
+    - node.type.resource_problem
+id: node.resource_problem.field_volume_issue
+field_name: field_volume_issue
+entity_type: node
+bundle: resource_problem
+label: 'Vol., Issue, Year, Page'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

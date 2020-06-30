@@ -1,0 +1,10 @@
+uuid: de17b9d0-84b5-431e-abfc-ec6988ec2aa7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.single_event
+label: single_event
+targetEntityType: node
+cache: true

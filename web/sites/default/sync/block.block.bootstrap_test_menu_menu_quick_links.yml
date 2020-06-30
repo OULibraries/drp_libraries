@@ -1,0 +1,25 @@
+uuid: fd580189-b489-4397-a5cd-c5b43c80ab78
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.menu-quick-links
+  module:
+    - system
+  theme:
+    - bootstrap_test
+id: bootstrap_test_menu_menu_quick_links
+theme: bootstrap_test
+region: ''
+weight: 0
+provider: null
+plugin: 'system_menu_block:menu-quick-links'
+settings:
+  id: 'system_menu_block:menu-quick-links'
+  label: 'Quick Links'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

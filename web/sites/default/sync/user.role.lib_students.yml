@@ -1,0 +1,10 @@
+uuid: a77b6c47-0ef7-4f48-b61e-f4aeb0fbfbad
+langcode: en
+status: true
+dependencies: {  }
+id: lib_students
+label: Lib-students
+weight: 17
+is_admin: null
+permissions:
+  - 'display EU Cookie Compliance popup'

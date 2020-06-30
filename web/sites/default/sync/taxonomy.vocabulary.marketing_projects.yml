@@ -1,0 +1,8 @@
+uuid: 0f5393e0-1363-414a-a173-fc0da63a3d0f
+langcode: en
+status: true
+dependencies: {  }
+name: 'Marketing Projects'
+vid: marketing_projects
+description: ''
+weight: 0

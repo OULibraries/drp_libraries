@@ -1,0 +1,21 @@
+uuid: 8f4014d3-c1bc-4c65-a7d0-f84c8fa6ac18
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_extended_description
+    - node.type.library_stories
+  module:
+    - text
+id: node.library_stories.field_extended_description
+field_name: field_extended_description
+entity_type: node
+bundle: library_stories
+label: 'Extended Description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

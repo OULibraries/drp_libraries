@@ -1,0 +1,240 @@
+uuid: 5c436e15-0291-402b-a852-eef45bd1b1f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.policy.comment_node_policy
+    - field.field.node.policy.field_build_your_page
+    - field.field.node.policy.field_content_owner
+    - field.field.node.policy.field_last_updated
+    - field.field.node.policy.field_needs_annual_audit
+    - field.field.node.policy.field_please_address_the_followi
+    - field.field.node.policy.field_publishing_status
+    - field.field.node.policy.field_service_categories
+    - field.field.node.policy.field_this_content_needs_review
+    - node.type.policy
+  module:
+    - comment
+    - datetime
+    - field_group
+    - field_layout
+    - layout_discovery
+    - paragraphs
+    - path
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+  field_group:
+    group_admin:
+      children:
+        - group_categories
+      parent_name: ''
+      weight: 4
+      label: 'Service Categories'
+      format_settings:
+        label: 'Service Categories'
+        id: ''
+        classes: 'group-admin field-group-accordion'
+        effect: none
+      format_type: accordion
+      region: content
+    group_audit:
+      children:
+        - field_content_owner
+        - field_last_updated
+        - field_needs_annual_audit
+      parent_name: group_auditgroup
+      weight: 8
+      label: 'Content Audit'
+      format_settings:
+        label: 'Content Audit'
+        formatter: closed
+        required_fields: 1
+        classes: 'group-audit field-group-accordion-item'
+        description: ''
+      format_type: accordion-item
+      region: content
+    group_categories:
+      children:
+        - field_service_categories
+      parent_name: group_admin
+      weight: 7
+      label: 'Assign Service Categories'
+      format_settings:
+        label: 'Assign Service Categories'
+        formatter: closed
+        required_fields: 1
+        classes: 'group-categories field-group-accordion-item'
+        description: ''
+      format_type: accordion-item
+      region: content
+    group_review:
+      children:
+        - group_reviewitem
+      parent_name: ''
+      weight: 5
+      label: 'Needs Immediate Review'
+      format_settings:
+        label: 'Needs Immediate Review'
+        id: ''
+        classes: 'group-review field-group-accordion'
+        effect: none
+      format_type: accordion
+      region: content
+    group_reviewitem:
+      children:
+        - field_this_content_needs_review
+        - field_please_address_the_followi
+      parent_name: group_review
+      weight: 9
+      label: 'Immediate Review'
+      format_settings:
+        formatter: closed
+        description: ''
+        classes: 'group-reviewitem field-group-accordion-item'
+        required_fields: 1
+      format_type: accordion-item
+      region: content
+    group_auditgroup:
+      children:
+        - group_audit
+      parent_name: ''
+      weight: 6
+      label: Audit
+      format_settings:
+        formatter: ''
+        effect: none
+        classes: 'group-auditgroup field-group-accordion'
+        id: ''
+      format_type: accordion
+      region: content
+id: node.policy.default
+targetEntityType: node
+bundle: policy
+mode: default
+content:
+  comment_node_policy:
+    type: comment_default
+    weight: 20
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_build_your_page:
+    weight: 3
+    type: entity_reference_paragraphs
+    settings:
+      title: Section
+      title_plural: Sections
+      edit_mode: open
+      add_mode: select
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_content_owner:
+    weight: 12
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_last_updated:
+    weight: 13
+    type: datetime_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_needs_annual_audit:
+    weight: 11
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    region: content
+  field_please_address_the_followi:
+    weight: 9
+    type: string_textarea
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_publishing_status:
+    weight: 1
+    type: options_select
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_service_categories:
+    weight: 6
+    type: options_buttons
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_this_content_needs_review:
+    weight: 8
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    region: content
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 120
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+  url_redirects:
+    weight: 50
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

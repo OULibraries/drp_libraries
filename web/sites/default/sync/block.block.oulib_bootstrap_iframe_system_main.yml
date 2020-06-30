@@ -1,0 +1,20 @@
+uuid: 65b11f1f-00e3-4104-8c4f-a19a1344ccab
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - oulib_bootstrap_iframe
+id: oulib_bootstrap_iframe_system_main
+theme: oulib_bootstrap_iframe
+region: ''
+weight: -63
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: ''
+  provider: system
+  label_display: '0'
+visibility: {  }

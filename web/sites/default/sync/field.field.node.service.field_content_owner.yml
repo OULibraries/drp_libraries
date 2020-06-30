@@ -1,0 +1,19 @@
+uuid: de94fbeb-ab8d-446d-ad86-edf1895a5e46
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content_owner
+    - node.type.service
+id: node.service.field_content_owner
+field_name: field_content_owner
+entity_type: node
+bundle: service
+label: 'Content Maintainer'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: 143b0850-e206-495f-8665-564be4769164
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_caption
+    - node.type.picture
+id: node.picture.field_caption
+field_name: field_caption
+entity_type: node
+bundle: picture
+label: Caption
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

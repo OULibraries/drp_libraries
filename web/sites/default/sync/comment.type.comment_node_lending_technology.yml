@@ -1,0 +1,8 @@
+uuid: 87c215c0-9c83-4dea-a070-ea3de3125df1
+langcode: en
+status: true
+dependencies: {  }
+id: comment_node_lending_technology
+label: 'Lending Technology comment'
+target_entity_type_id: node
+description: null

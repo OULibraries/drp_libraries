@@ -1,0 +1,14 @@
+uuid: cea1f5f3-9d2d-42cb-879b-7ca4f45fe9e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ou_hsc
+  module:
+    - user
+id: user_add_role_action.ou_hsc
+label: 'Add the ou_hsc role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: ou_hsc

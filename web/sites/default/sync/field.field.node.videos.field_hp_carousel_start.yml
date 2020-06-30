@@ -1,0 +1,21 @@
+uuid: 29f6e46d-6625-4d0f-919e-6a63d350bf0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hp_carousel_start
+    - node.type.videos
+  module:
+    - datetime
+id: node.videos.field_hp_carousel_start
+field_name: field_hp_carousel_start
+entity_type: node
+bundle: videos
+label: 'Date to stay on carousel'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

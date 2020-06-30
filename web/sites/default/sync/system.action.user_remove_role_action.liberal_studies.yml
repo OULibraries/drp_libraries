@@ -1,0 +1,14 @@
+uuid: dc39c60e-0851-4dc1-a3da-a7e81ab368b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.liberal_studies
+  module:
+    - user
+id: user_remove_role_action.liberal_studies
+label: 'Remove the liberal_studies role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: liberal_studies

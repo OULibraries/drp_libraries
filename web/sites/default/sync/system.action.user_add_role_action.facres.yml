@@ -1,0 +1,14 @@
+uuid: f0d743eb-0aa8-45e8-af77-b79ad6aef380
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.facres
+  module:
+    - user
+id: user_add_role_action.facres
+label: 'Add the facres role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: facres

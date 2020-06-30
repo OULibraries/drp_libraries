@@ -1,0 +1,20 @@
+uuid: deb8f7fd-75fa-4b63-835f-812b4358518e
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap_test
+id: bootstrap_test_system_main
+theme: bootstrap_test
+region: ''
+weight: -14
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: ''
+  provider: system
+  label_display: '0'
+visibility: {  }

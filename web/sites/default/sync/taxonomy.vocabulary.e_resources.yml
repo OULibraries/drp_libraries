@@ -1,0 +1,8 @@
+uuid: be87054c-5019-4099-9149-25e926eac702
+langcode: en
+status: true
+dependencies: {  }
+name: 'E-Resource Types'
+vid: e_resources
+description: ''
+weight: -8

@@ -1,0 +1,14 @@
+uuid: b7c40a4b-46c6-46b0-a2b4-4a28625c734f
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.reservations_admin
+  module:
+    - user
+id: user_add_role_action.reservations_admin
+label: 'Add the reservations admin role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: reservations_admin

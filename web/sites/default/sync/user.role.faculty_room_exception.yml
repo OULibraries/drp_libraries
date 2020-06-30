@@ -1,0 +1,10 @@
+uuid: 4805253d-26af-4295-8942-c10298c537fd
+langcode: en
+status: true
+dependencies: {  }
+id: faculty_room_exception
+label: 'faculty room exception'
+weight: 8
+is_admin: null
+permissions:
+  - 'display EU Cookie Compliance popup'

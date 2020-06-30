@@ -1,0 +1,14 @@
+uuid: f00ac58b-5e80-45e6-8f46-d69ebb0a9ed6
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.gradres
+  module:
+    - user
+id: user_remove_role_action.gradres
+label: 'Remove the gradres role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: gradres

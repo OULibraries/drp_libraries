@@ -1,0 +1,14 @@
+uuid: 385ccac0-71ee-479d-b208-2e9960ea7b5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.gradstudent
+  module:
+    - user
+id: user_remove_role_action.gradstudent
+label: 'Remove the gradstudent role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: gradstudent

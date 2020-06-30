@@ -1,0 +1,14 @@
+uuid: 37891c29-a725-41e5-815f-24064497d584
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.center_for_cont_ed
+  module:
+    - user
+id: user_remove_role_action.center_for_cont_ed
+label: 'Remove the center_for_cont_ed role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: center_for_cont_ed

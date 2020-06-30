@@ -1,0 +1,14 @@
+uuid: e3aedd12-4f51-40fd-a447-ee93c6ba8376
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.center_for_cont_ed
+  module:
+    - user
+id: user_add_role_action.center_for_cont_ed
+label: 'Add the center_for_cont_ed role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: center_for_cont_ed

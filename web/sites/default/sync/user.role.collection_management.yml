@@ -1,0 +1,28 @@
+uuid: 93cc6040-9830-49a4-879a-16ca6a4727a9
+langcode: en
+status: true
+dependencies: {  }
+id: collection_management
+label: 'Collection Management'
+weight: 5
+is_admin: null
+permissions:
+  - 'access administration menu'
+  - 'access administration pages'
+  - 'access content'
+  - 'access content overview'
+  - 'access user profiles'
+  - 'administer nodes'
+  - 'create eresources content'
+  - 'delete any eresources content'
+  - 'delete own eresources content'
+  - 'delete revisions'
+  - 'display EU Cookie Compliance popup'
+  - 'edit any eresources content'
+  - 'edit node expire'
+  - 'edit own eresources content'
+  - 'revert revisions'
+  - 'use text format full_html'
+  - 'view own unpublished content'
+  - 'view revisions'
+  - 'view the administration theme'

@@ -1,0 +1,23 @@
+uuid: 27ec7f9a-46be-40e0-ae78-7202ed5035cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_appointment
+  module:
+    - link
+    - user
+id: user.user.field_appointment
+field_name: field_appointment
+entity_type: user
+bundle: user
+label: 'Appointment Link'
+description: 'Add the url for your calendar.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 17
+field_type: link

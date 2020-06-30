@@ -1,0 +1,14 @@
+uuid: 506918c1-46b2-4711-99f1-127b2b54fae9
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.gradres
+  module:
+    - user
+id: user_add_role_action.gradres
+label: 'Add the gradres role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: gradres

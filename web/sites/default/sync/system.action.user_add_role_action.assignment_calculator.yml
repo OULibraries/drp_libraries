@@ -1,0 +1,14 @@
+uuid: 99feb5db-14a4-4e7e-a88a-bfb7076f8c61
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.assignment_calculator
+  module:
+    - user
+id: user_add_role_action.assignment_calculator
+label: 'Add the assignment calculator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: assignment_calculator

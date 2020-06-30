@@ -1,0 +1,10 @@
+uuid: 4e65a0e4-87e2-4283-8b23-d17f198a363b
+langcode: en
+status: true
+dependencies: {  }
+id: ou_norman
+label: ou_norman
+weight: 21
+is_admin: null
+permissions:
+  - 'display EU Cookie Compliance popup'

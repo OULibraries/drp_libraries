@@ -1,0 +1,14 @@
+uuid: e5775efe-f409-41ea-a2fb-1175cef1509d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.tech_lending_maintainer
+  module:
+    - user
+id: user_add_role_action.tech_lending_maintainer
+label: 'Add the Tech Lending Maintainer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: tech_lending_maintainer

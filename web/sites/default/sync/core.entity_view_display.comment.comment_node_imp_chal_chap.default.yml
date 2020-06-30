@@ -1,0 +1,29 @@
+uuid: 35a885f7-712f-4e8e-ae23-56405446311c
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_imp_chal_chap
+    - field.field.comment.comment_node_imp_chal_chap.comment_body
+  module:
+    - text
+id: comment.comment_node_imp_chal_chap.default
+targetEntityType: comment
+bundle: comment_node_imp_chal_chap
+mode: default
+content:
+  comment_body:
+    label: hidden
+    weight: 0
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  search_api_excerpt: true

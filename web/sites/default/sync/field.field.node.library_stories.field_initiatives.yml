@@ -1,0 +1,26 @@
+uuid: b2ae57dc-c277-46c9-a3d8-4afdafc0043a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_initiatives
+    - node.type.library_stories
+    - taxonomy.vocabulary.initiatives
+id: node.library_stories.field_initiatives
+field_name: field_initiatives
+entity_type: node
+bundle: library_stories
+label: Initiatives
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler_settings:
+    sort:
+      field: _none
+    target_bundles:
+      initiatives: initiatives
+  handler: 'default:taxonomy_term'
+field_type: entity_reference
